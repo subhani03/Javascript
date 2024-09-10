@@ -1,0 +1,5 @@
+var a=Math.random()
+console.log(a)
+console.log(Math.floor(a*10))
+console.log(Math.floor(a*10)+1)
+console.log(Math.floor(6.77))

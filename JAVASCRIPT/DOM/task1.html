@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="inputbox" onkeyup="change()">
+    <h1 id="result"></h1>
+</body>
+<script>
+    /* select input and h1 tag */
+    var input=document.getElementById('inputbox')
+    var result=document.getElementById('result')
+    function change()
+    {
+        result.textContent=inputbox.value
+    }
+</script>
+</html>
